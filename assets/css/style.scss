@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: Futura;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: monospace;
+}
