@@ -2,3 +2,8 @@ title: 'willclark.tech'
 theme: 'jekyll-theme-cayman'
 description: 'return tech || philosophy || nonsense'
 google_analytics: 'UA-69040906-1'
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
