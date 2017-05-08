@@ -30,13 +30,31 @@ body {
   font-family: Helvetica;
 }
 
-h1 {
+h1, h2 {
   font-family: Futura;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h3, h4, h5, h6, h2.project-tagline {
   font-family: monospace;
+}
+
+// TODO: Delete when variable overrides are released
+
+$greeny: #98cc96;
+$bluey: #004563;
+$linky: #0089a7;
+
+section.page-header {
+  background-color: black;
+  background-image: linear-gradient(120deg, $greeny, $bluey);
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $bluey;
+  }
+}
+
+a {
+  color: $linky;
 }
