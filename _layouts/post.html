@@ -8,12 +8,15 @@
     {% include header.html %}
 
     <section class="main-content">
+      <h2>{{ page.title }}</h2>
       {{ content }}
     </section>
 
     {% include footer.html %}
 
     {% include analytics.html %}
+
+    {% include comments.html %}
 
   </body>
 </html>

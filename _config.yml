@@ -2,6 +2,7 @@ title: 'willclark.tech'
 theme: 'jekyll-theme-cayman'
 description: 'return tech || philosophy || nonsense'
 google_analytics: 'UA-69040906-1'
+comments: true
 
 paginate: 10
 
