@@ -72,6 +72,10 @@ $linky: #0089a7;
 section.page-header {
   background-color: black;
   background-image: linear-gradient(120deg, $greeny, $bluey);
+
+  h2 {
+    margin-bottom: 0;
+  }
 }
 
 .main-content {
@@ -82,4 +86,8 @@ section.page-header {
 
 a {
   color: $linky;
+}
+.project-name a {
+  color: white;
+  text-decoration: none;
 }
