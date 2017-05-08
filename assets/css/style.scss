@@ -43,9 +43,12 @@ h3, h4, h5, h6, h2.project-tagline {
   max-width: 48rem;
 
   h1 {
+    margin-bottom: 2.5rem;
     font-size: 5rem;
     line-height: 5.2rem;
-    margin-bottom: 2.5rem;
+  }
+  h1, h2 {
+    font-weight: bold;
   }
 }
 
