@@ -38,6 +38,16 @@ h3, h4, h5, h6, h2.project-tagline {
   font-family: monospace;
 }
 
+.pagination {
+  border-top: solid 1px #eff0f1;
+  margin-top: 2rem;
+  padding-top: 2rem;
+
+  span, a {
+    margin-right: 2rem;
+  }
+}
+
 // TODO: Delete when variable overrides are released
 
 $greeny: #98cc96;
