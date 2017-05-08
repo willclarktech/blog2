@@ -27,7 +27,8 @@
 @import "{{ site.theme }}";
 
 body {
-  font-family: Helvetica;
+  font-family: Helvetica 300 !important;
+  line-height: 2.2rem;
 }
 
 h1, h2 {
@@ -36,6 +37,16 @@ h1, h2 {
 
 h3, h4, h5, h6, h2.project-tagline {
   font-family: monospace;
+}
+
+.main-content {
+  max-width: 48rem;
+
+  h1 {
+    font-size: 5rem;
+    line-height: 5.2rem;
+    margin-bottom: 2.5rem;
+  }
 }
 
 .pagination {
