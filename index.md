@@ -1,12 +1,8 @@
 ---
 ---
-# blog2
 
-testing testing
+{% for post in site.posts %}
+## [{{ post.title }}]({{ post.url }})
 
-```js
-const x = () => [].reduce(
-  (x, i) => i,
-  null
-)
-```
+{{ post.intro }}
+{% endfor %}
