@@ -17,5 +17,6 @@ disqus_short_name: 'willclarktech'
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
+  - 'CNAME'
   - 'README.md'
   - 'CHANGELOG.md'
