@@ -1,10 +1,11 @@
 title: 'willclark.tech'
-theme: 'jekyll-theme-cayman'
 description: 'return tech || philosophy || nonsense'
+
+theme: 'jekyll-theme-cayman'
+paginate: 10
+
 google_analytics: 'UA-69040906-1'
 disqus_short_name: 'willclarktech'
-
-paginate: 10
 
 exclude:
   - 'Gemfile'
